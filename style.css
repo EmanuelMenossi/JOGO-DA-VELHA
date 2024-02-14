@@ -1,0 +1,108 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #1B1E23;
+    color: #f5fffa;
+    font-family: 'Montserrat', sans-serif;
+}
+.jogadores{
+    padding: 1%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.jogadores input{
+   width: 20rem;
+   padding: 1%;
+   background-color: white;
+   color: black;
+   box-shadow: -2px 0px 32px 4px rgba(0,0,0,0.59);
+   -webkit-box-shadow: -2px 0px 32px 4px rgba(0,0,0,0.59);
+   -moz-box-shadow: -2px 0px 32px 4px rgba(0,0,0,0.59);
+}
+
+
+.jogadores button{
+    width: 5rem;
+    height: 2rem;
+    display: flex;
+    justify-content: center;
+    margin-top: 1%;
+    margin-left: 38%;
+}
+
+.players{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.text-align{
+    text-align: center;
+}
+
+#game{
+    display: grid;
+    grid-template-columns: 6rem 6rem 6rem;
+    grid-auto-rows: 6rem 6rem 6rem;
+    justify-content: center;
+    gap: 0.2rem;
+}
+
+.item{
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+    font-size: 4rem;
+    box-shadow: -2px 0px 32px 4px rgba(0,0,0,0.59);
+    -webkit-box-shadow: -2px 0px 32px 4px rgba(0,0,0,0.59);
+    -moz-box-shadow: -2px 0px 32px 4px rgba(0,0,0,0.59);
+}
+
+.playerAtual{
+    margin-top: 1vh ;
+    margin-bottom: 1vh;
+    text-align: center;
+}
+
+.começar{
+text-align: center;
+margin-top: 1vh
+}
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Koulen&family=Lato&family=Nunito&family=Playfair+Display:ital@1&family=Prata&family=Raleway:ital,wght@1,100&family=Roboto&family=Roboto+Condensed&family=Teko&display=swap');
+.btn{
+
+font-family: Roboto, sans-serif;
+font-weight: 0;
+font-size: 14px;
+color: #fff;
+background-color: #0066CC;
+padding: 10px 30px;
+border: 2px solid #0066cc;
+box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px;
+border-radius: 50px;
+transition : 1000ms;
+transform: translateY(0);
+display: flex;
+flex-direction: row;
+align-items: center;
+cursor: pointer;
+}
+
+.btn:hover{
+
+transition : 1000ms;
+padding: 10px 50px;
+transform : translateY(-0px);
+background-color: #fff;
+color: #0066cc;
+border: solid 2px #0066cc;
+}
